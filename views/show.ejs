@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+	
+	<div class="ui raised very padded main text container segment">
+		<div class="ui huge header"> <%= blog.title %> </div>
+		<div class="ui top attached">
+			<div class="item">
+				<img class="ui centered rounded image" src="<%= blog.image %>">
+			</div>
+			<div class="content">
+				<span><strong> <%= blog.created.toDateString() %> </strong></span>
+			</div>
+			<div class="description">
+				<p> <%- blog.body %> </p>
+			</div>
+			<br>
+			<a class="ui orange medium inverted button" href="/blogs/<%= blog._id %>/edit">EDIT</a>
+			<form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+				<button class="ui red medium inverted button">DELETE</button>
+			</form>
+		</div>
+	</div>
+
+<% include ./partials/footer %>
+
+
+<!-- you can use moment.js to style the date on this page. just include the library as u would include a jquery library -->

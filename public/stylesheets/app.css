@@ -1,0 +1,15 @@
+#hell {
+	font-size: 2em;
+}
+
+.container.main {
+	margin-top: 7em;
+}
+
+#delete{
+	display: inline;
+}
+
+.buttonSize {
+     width: 1.5em;   
+}
