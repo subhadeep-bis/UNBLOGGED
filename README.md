@@ -1,7 +1,7 @@
-# Welcome to "Blogged"
+# Welcome to "Unblogged"
 
 >This Project is deployed on Heroku Servers and can be called using the following URL:
-* [BLOGGED](https://desolate-taiga-36568.herokuapp.com/)
+* [UNBLOGGED](https://desolate-taiga-36568.herokuapp.com/)
 
 ***
 >The files on this Repository are meant to run on a local host and as such certain changes have to be made in order run on a hosting platform.
