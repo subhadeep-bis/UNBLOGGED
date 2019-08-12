@@ -4,7 +4,7 @@
 * [UNBLOGGED](https://desolate-taiga-36568.herokuapp.com/)
 
 ***
->The files on this Repository are meant to run on a local host and as such certain changes were made in order run on a hosting platform such as Heroku.
+>The files on this Repository are meant to run on a local host and as such certain changes were made in order to run on a hosting platform such as Heroku.
 
 ### Starting the Application
 1. Install Node.js Globally on your machine.
