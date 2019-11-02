@@ -128,6 +128,6 @@ app.delete("/blogs/:id", function(req, res){
 	// redirect somewhere
 });
 
-app.listen(27017, function(){
-	console.log("RESTful BlogApp started at server 27017");
+app.listen(process.env.PORT, process.env.IP,function(){
+	console.log("UNBLOGGED started at server " + process.env.PORT);
 });
